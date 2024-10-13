@@ -1,0 +1,66 @@
+body{
+    background-color: seagreen;
+}
+.register-container {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border-radius: 8px;
+    padding: 2rem;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    color: white;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+  
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  
+    input {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 5px;
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    }
+  
+    .error {
+      color: #ff4d4d;
+      font-size: 0.9rem;
+      margin-top: -0.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    button {
+      width: 100%;
+      padding: 0.7rem;
+      border: none;
+      border-radius: 5px;
+      background-color: #ff4d4d;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  
+      &:hover {
+        background-color: #ff1a1a;
+      }
+    }
+  
+    .toggle {
+      text-align: center;
+      margin-top: 1rem;
+      color: #ffffff;
+      cursor: pointer;
+      transition: color 0.3s;
+  
+      &:hover {
+        color: #ff4d4d; 
+      }
+    }
+  }
+  
